@@ -96,6 +96,12 @@ Create superuser with all privileges
   db.createUser({user: "username-here" , pwd: passwordPrompt() , roles: ["root"]})
 ```
 
+Now Exit mongosh shell
+
+```bash
+  .exit
+```
+
 Enable Authorization removing comment
 
 ```bash
@@ -122,6 +128,12 @@ Create Database & User for project:
 ```
 ```bash
   db.createUser({user:"username_here", pwd:passwordPrompt(), roles:[{role:"readWrite", db:"database_name"}]})
+```
+
+Now Exit mongosh shell
+
+```bash
+  .exit
 ```
 
 MongoDB URI to Connect with projects:
